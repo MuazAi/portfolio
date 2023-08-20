@@ -8,7 +8,7 @@ export default function Home() {
         <Introduction
           id="home"
           portfolio={{
-            src: "/images/portfolio/1.jpg",
+            src: "./images/portfolio/1.jpg",
             width: 450,
             height: 300,
           }}
