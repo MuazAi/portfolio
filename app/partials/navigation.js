@@ -12,9 +12,9 @@ export default function Navigation({ Navlinks }) {
         className="w-20"
       />
       <ul className="flex w-1/4 justify-around">
-        {Navlinks.map((link) => {
+        {Navlinks.map((link, index) => {
           return (
-            <li>
+            <li key={index}>
               <Link href={link.href} scroll={true}>
                 {link.name}
               </Link>
