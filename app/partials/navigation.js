@@ -5,7 +5,7 @@ export default function Navigation({ Navlinks }) {
   return (
     <nav className="flex justify-around items-center">
       <Image
-        src="/images/logo/logo-v.png"
+        src="./images/logo/logo-v.png"
         alt="Logo"
         width={200}
         height={100}
