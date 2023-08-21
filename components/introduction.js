@@ -3,9 +3,9 @@ import NamePanel from "./namepanel";
 
 export default function Introduction({ portfolio, fullname, introduction }) {
   return (
-    <div className="flex flex-row-reverse w-screen px-52">
+    <div className="md:flex  container flex-row-reverse min-h-screen items-center">
       {portfolio && (
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <Image
             src={portfolio.src}
             width={portfolio.width}
@@ -19,7 +19,7 @@ export default function Introduction({ portfolio, fullname, introduction }) {
       <NamePanel
         fullname={fullname}
         introduction={introduction}
-        className="w-1/2"
+        className="md:w-1/2"
       />
     </div>
   );

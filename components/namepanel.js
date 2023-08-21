@@ -34,7 +34,7 @@ export default function NamePanel({ fullname, introduction }) {
           speed={50}
           wrapper="p"
           cursor={false}
-          className="w-1/2"
+          className="w-full md:w-1/2"
         />
       )}
     </article>
