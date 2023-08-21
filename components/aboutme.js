@@ -37,7 +37,7 @@ const styles = {
     color: "red",
   },
   parallex: {
-    background: 'url("/images/university.jpg")',
+    background: 'url("./images/university.jpg")',
     backgroundSize: "contain",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
